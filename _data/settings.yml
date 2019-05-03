@@ -4,15 +4,15 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
+  logo_image:
   logo_width: 200
 
 menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Posts'
+      url: '/posts/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
