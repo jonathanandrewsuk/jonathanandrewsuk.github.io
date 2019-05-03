@@ -80,7 +80,7 @@ font_settings:
     medium_size: 35
     large_size: 45
     weight: 500
-    letter_spacing: 2
+    letter_spacing: 0.125
   site_tagline:
     small_size: 16
     medium_size: 18
