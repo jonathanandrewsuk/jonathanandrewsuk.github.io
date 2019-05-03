@@ -70,9 +70,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
-  title_font: '"Montserrat", sans-serif'
-  body_font: '"Montserrat", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">'
+  title_font: '"Roboto", sans-serif'
+  body_font: '"Roboto", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
@@ -80,7 +80,7 @@ font_settings:
     medium_size: 35
     large_size: 45
     weight: 500
-    letter_spacing: -0.02
+    letter_spacing: 2
   site_tagline:
     small_size: 16
     medium_size: 18
