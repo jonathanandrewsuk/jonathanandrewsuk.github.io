@@ -56,6 +56,7 @@
 }
 
 .header__title {
+	text-transform: uppercase;
 	background-color: #448ef6;
 	padding: 5px;
 	font-size: $sitetitle-small;
@@ -78,6 +79,7 @@
 }
 
 .header__tagline {
+	display: none;
 	margin-top: 20px;
 	font-size: $sitetagline-small;
 	font-weight: $sitetagline-weight;
