@@ -88,6 +88,8 @@ prose:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
+          value: "/images/demo/demo-square.jpg"
+          alterable: true
       - name: "date"
         field:
           element: "text"
