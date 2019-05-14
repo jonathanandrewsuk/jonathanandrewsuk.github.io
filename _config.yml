@@ -54,7 +54,7 @@ paginate_path: "/posts/page:num/"
 
 # prose.io config
 prose:
-  media: 'img'
+  media: 'images'
   ignore:
     - 404.html
     - LICENSE
