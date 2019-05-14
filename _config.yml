@@ -77,12 +77,6 @@ prose:
           label: "Post title"
           placeholder: "Title"
           alterable: true
-      - name: "subtitle"
-        field:
-          element: "text"
-          label: "Subtitle"
-          placeholder: "Subtitle"
-          alterable: true
       - name: "description"
         field:
           element: "text"
