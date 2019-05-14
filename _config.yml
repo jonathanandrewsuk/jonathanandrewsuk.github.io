@@ -51,3 +51,12 @@ plugins:
 
 paginate: 6
 paginate_path: "/posts/page:num/"
+
+prose:
+  metadata:
+    _posts:
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
