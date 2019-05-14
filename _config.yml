@@ -52,23 +52,14 @@ plugins:
 paginate: 6
 paginate_path: "/posts/page:num/"
 
-media: 'images'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-
 prose:
-media: 'images'
-  metadata:
-    _posts:
-      - name: "modified"
-        field:
-          element: "text"
-          label: "Has this page been modified? - (YYYY-MM-DDT00:00:00.000Z)"
-          placeholder: "YYYY-MM-DDT00:00:00.000Z"
-          value: CURRENT_DATETIME
+  media: 'images'
+    metadata:
+      _posts:
+        - name: "modified"
+          field:
+            element: "text"
+            label: "Has this page been modified? - (YYYY-MM-DDT00:00:00.000Z)"
+            placeholder: "YYYY-MM-DDT00:00:00.000Z"
+            value: CURRENT_DATETIME
           
