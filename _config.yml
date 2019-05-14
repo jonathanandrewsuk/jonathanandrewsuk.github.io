@@ -83,29 +83,22 @@ prose:
           label: "Subtitle"
           placeholder: "A description of your post."
           alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-          value: CURRENT_DATETIME
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
       - name: "featured_image"
         field:
           element: "text"
           label: "Featured Image"
           placeholder: "somefile.jpg"
+      - name: "date"
+        field:
+          element: hidden
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+          value: CURRENT_DATETIME
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
           
