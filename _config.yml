@@ -70,4 +70,5 @@ media: 'images'
           element: "text"
           label: "Has this page been modified? - (YYYY-MM-DDT00:00:00.000Z)"
           placeholder: "YYYY-MM-DDT00:00:00.000Z"
+          value: CURRENT_DATETIME
           
