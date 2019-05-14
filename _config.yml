@@ -81,6 +81,12 @@ prose:
         field:
           element: "textarea"
           label: "Subtitle"
+          placeholder: "Subtitle"
+          alterable: true
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description (for seo)"
           placeholder: "A description of your post."
           alterable: true
       - name: "featured_image"
@@ -90,7 +96,7 @@ prose:
           placeholder: "somefile.jpg"
       - name: "date"
         field:
-          element: hidden
+          element: "text"
           label: "Date"
           help: "Enter date of post."
           placeholder: "yyyy-mm-dd"
