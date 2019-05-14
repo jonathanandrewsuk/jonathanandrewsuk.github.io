@@ -2,6 +2,7 @@
 date: '2019-05-14 13:24 -0400'
 published: true
 title: ANOTHER TEST
+featured_image: /images/demo/demo-square.jpg
 ---
 ## A New Post
 
