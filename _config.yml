@@ -79,7 +79,7 @@ prose:
           alterable: true
       - name: "subtitle"
         field:
-          element: "textarea"
+          element: "text"
           label: "Subtitle"
           placeholder: "Subtitle"
           alterable: true
