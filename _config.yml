@@ -56,10 +56,5 @@ prose:
   media: 'images'
   metadata:
     _posts:
-      - name: "date"
-        field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DDT00:00:00.000Z"
-          value: CURRENT_DATETIME
+      - date: CURRENT_DATETIME
           
