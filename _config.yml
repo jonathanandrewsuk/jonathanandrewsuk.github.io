@@ -67,6 +67,10 @@ prose:
     - /js
   metadata:
     _posts:
+      - name: “layout”
+        field:
+          element: “hidden”
+          value: “post”
       - name: "title"
         field:
           element: "text"
