@@ -1,16 +1,18 @@
 basic_settings:
-  site_title: Jonny Andrews
-  site_tagline: 'Web Developer based in NYC'
+  site_title: Index
+  site_tagline: A minimal, fixed sidebar grid portfolio Jekyll theme.
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image:
+  logo_image: 
   logo_width: 200
 
 menu_settings:
   menu_items:
-    - title: 'Posts'
-      url: '/posts'
+    - title: 'Projects'
+      url: '/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
@@ -55,30 +57,30 @@ social_settings:
   linkedin_url: ''
 
 color_settings:
-  background_color: '#FFFFFF'
+  background_color: '#ffffff'
   background_alt_color: '#F5F7FA'
   text_dark_color: '#2A2F36'
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#448ef6'
+  accent_color: '#0C5DF2'
   border_color: '#dddddd'
-  overlay_background_color: '#448ef6'
+  overlay_background_color: '#0C5DF2'
   overlay_text_color: '#ffffff'
   overlay_accent_color: '#2A2F36'
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">'
-  title_font: '"Roboto", sans-serif'
-  body_font: '"Roboto", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
+  title_font: '"Montserrat", sans-serif'
+  body_font: '"Montserrat", sans-serif'
   regular_weight: 300
   bold_weight: 500
   site_title:
     small_size: 25
-    medium_size: 25
-    large_size: 25
+    medium_size: 35
+    large_size: 45
     weight: 500
-    letter_spacing: 0.125
+    letter_spacing: -0.02
   site_tagline:
     small_size: 16
     medium_size: 18

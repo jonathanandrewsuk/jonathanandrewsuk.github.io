@@ -56,17 +56,14 @@
 }
 
 .header__title {
-	text-transform: uppercase;
-	background-color: #448ef6;
-	padding: 5px;
 	font-size: $sitetitle-small;
 	font-weight: $sitetitle-weight;
 	letter-spacing: $sitetitle-spacing;
 	line-height: 1;
-	color: #FFFFFF;
+	color: $text-dark-color;
 
 	&:hover {
-		color: #00204a;
+		color: $accent-color;
 	}
 
 	@include mq(tabletp) {
@@ -79,7 +76,6 @@
 }
 
 .header__tagline {
-	display: none;
 	margin-top: 20px;
 	font-size: $sitetagline-small;
 	font-weight: $sitetagline-weight;
@@ -102,7 +98,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
 
 .menu {
-
+	
 	@include mq(tabletl) {
 		margin-top: 20px;
 	}
@@ -126,7 +122,7 @@
 		top: 40px;
 		right: 40px;
 	}
-
+	
 	@include mq(tabletl) {
 		display: none;
 	}
@@ -164,16 +160,16 @@
 	span:before, span:after {
 		background: $overlay-text-color !important;
 	}
-
+		
 	span {
 		background-color: transparent !important;
 	}
-
+	
 	span:before,
 	span:after {
 		top: 0;
 	}
-
+	
 	span:before {
 		@include rotate(45);
 	}
@@ -254,7 +250,7 @@
 	@include mq(laptop) {
 		font-size: $menu-large;
 	}
-
+	
 	&.active-link {
 		color: $overlay-accent-color;
 
@@ -282,7 +278,7 @@
 
 .projects-menu {
 	display: none;
-
+	
 	@include mq(tabletl) {
 		display: block;
 		margin-top: 20px;
