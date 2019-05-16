@@ -45,8 +45,6 @@ sass:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
-  siteurl: 'https://www.jonnyandrews.io'
   media: 'images'
   ignore:
   - 404.html
