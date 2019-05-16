@@ -13,8 +13,6 @@ menu_settings:
       url: '/'
     - title: 'About'
       url: '/about'
-    - title: 'Contact'
-      url: '/contact'
 
 grid_settings:
   overlay_opacity: 0.8
@@ -28,7 +26,7 @@ contact_settings:
 
 social_settings:
   facebook_url: ''
-  twitter_url: ''
+  twitter_url: 'https://twitter.com/jandrewsuk'
   instagram_url: ''
   snapchat_url: ''
   youtube_url: ''
@@ -52,7 +50,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/jonny-andrews'
 
 color_settings:
   background_color: '#ffffff'
