@@ -9,7 +9,7 @@ featured_image: /images/social.jpg
 
 	<div class="content-wrap blog-wrap">
 
-		{% for post in site.paginator.posts %}
+		{% for post in paginator.posts %}
 
 		<article class="blog-post">
 
@@ -36,18 +36,18 @@ featured_image: /images/social.jpg
 
 </section>
 
-{% if site.paginator.total_pages > 1 %}
+{% if paginator.total_pages > 1 %}
 
 <section class="pagination">
 
-	{% if site.paginator.previous_page %}
+	{% if paginator.previous_page %}
 	<div class="pagination__prev">
-		<a href="{{ site.paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
+		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
 	</div>
 	{% endif %}
-	{% if site.paginator.next_page %}
+	{% if paginator.next_page %}
 	<div class="pagination__next">
-		<a href="{{ site.paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 	</div>
 	{% endif %}
 
