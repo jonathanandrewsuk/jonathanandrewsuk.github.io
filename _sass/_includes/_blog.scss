@@ -10,7 +10,7 @@
 }
 
 .blog-wrap {
-	
+
 }
 
 .blog-post {
@@ -23,17 +23,6 @@
 .blog-post__link {
 	position: relative;
 	display: block;
-
-	@include mq(tabletl) {
-
-		&:hover {
-
-			.blog-post__content {
-				opacity: 1;
-				visibility: visible;
-			}
-		}
-	}
 }
 
 .blog-post__image {
@@ -49,10 +38,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba($overlay-background-color, $overlay-opacity);
-
-	opacity: 0;
-	visibility: hidden;
+	&:hover {
+		background: rgba($overlay-background-color, $overlay-opacity);
+	}
+	opacity: 1;
+	visibility: visible;
 	@include transition(all 0.2s ease-in-out);
 }
 
