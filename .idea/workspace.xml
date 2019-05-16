@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5841db7c-5f42-4e1c-b8ff-a342bd8cc77b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contact-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/socials.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/project.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/contact.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/thanks.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-30-demo-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/2018-06-30-demo-project.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_basic.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_contact-form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_content.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_gallery.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_portfolio.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_socials.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_includes/_syntax.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_plugins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_reset.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/demo/demo-landscape-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/demo/demo-landscape.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/demo/demo-portrait.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/demo/demo-square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/social.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/debounce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/fluidbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/history.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/imagesloaded.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/masonry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/owl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/waypoints.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +14,9 @@
     <session id="1188219424">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -96,12 +49,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -111,6 +64,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>paginator</find>
+      <find>jekyll</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,8 +96,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,28 +166,25 @@
       <option name="presentableId" value="Default" />
       <updated>1557928256878</updated>
       <workItem from="1557928261605" duration="941000" />
+      <workItem from="1558016882093" duration="410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="941000" />
+    <option name="totallyTimeSpent" value="1351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -241,15 +192,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,13 +243,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/index.html" />
     <entry file="file://$PROJECT_DIR$/_data/settings.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -304,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="45" column="19" lean-forward="true" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        <state relative-caret-position="272">
+          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
         </state>
       </provider>
     </entry>
