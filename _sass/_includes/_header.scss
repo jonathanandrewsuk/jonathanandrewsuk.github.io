@@ -232,17 +232,7 @@
 }
 
 .menu_blurb {
-	margin: 0 auto;
-	padding: 12px 20px;
-	font-size: $menu-large;
-	@include mq(tabletp) {
-		padding: 30px 40px;
-	}
-
-	@include mq(tabletl) {
-		margin: 20px;
-		padding: 0;
-	}
+	margin: 20px;
 }
 
 .menu__list__item__link {
