@@ -232,15 +232,17 @@
 }
 
 .menu__blurb {
-	margin: 20px;
+	color: white;
 	@include mq(tabletl) {
+		margin: 20px;
 		font-size: 15px;
-		color: white;
+		color: unset;
 	}
 
 	@include mq(laptop) {
+		margin: 20px;
 		font-size: 15px;
-		color: white;
+		color: unset;
 	}
 }
 
