@@ -232,6 +232,7 @@
 }
 
 .menu__blurb {
+	padding-top: 20px;
 	color: white;
 	@include mq(tabletl) {
 		color: unset;
