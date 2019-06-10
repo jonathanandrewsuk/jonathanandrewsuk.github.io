@@ -231,16 +231,16 @@
 
 }
 
-.menu_blurb {
-	margin: 20px !important;
+.menu__blurb {
+	margin: 20px;
 	@include mq(tabletl) {
-		font-size: 15px !important;
-		color: white !important;
+		font-size: 15px;
+		color: white;
 	}
 
 	@include mq(laptop) {
-		font-size: 15px !important;
-		color: white !important;
+		font-size: 15px;
+		color: white;
 	}
 }
 
