@@ -233,6 +233,15 @@
 
 .menu_blurb {
 	margin: 20px !important;
+	@include mq(tabletl) {
+		font-size: 15px !important;
+		color: white !important;
+	}
+
+	@include mq(laptop) {
+		font-size: 15px !important;
+		color: white !important;
+	}
 }
 
 .menu__list__item__link {
