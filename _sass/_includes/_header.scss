@@ -232,7 +232,9 @@
 }
 
 .menu_blurb {
-	font-size: $menu-medium;
+	margin: 0 auto;
+	padding: 12px 20px;
+	font-size: $menu-large;
 	@include mq(tabletp) {
 		padding: 30px 40px;
 	}
