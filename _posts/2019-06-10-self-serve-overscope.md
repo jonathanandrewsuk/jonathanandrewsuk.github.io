@@ -13,11 +13,11 @@ The root cause of my mistakes is usually that I’ve gotten too excited and over
 
 **So from now on my personal sprint planning will always include things that I know will give me a morale boost.**
 
-1. **Crossing off small daily tasks** - I didn’t use to track small tasks (like writing this blog post), but clicking “done” and watching the completed animation inside todoist is more powerful than I first thought.
+1.Crossing off small daily tasks - I didn’t use to track small tasks (like writing this blog post), but clicking “done” and watching the completed animation inside todoist is more powerful than I first thought.
 
-2. **Purposely underestimating my free time**, ending up with more “earned” free time is always good.
+2.Purposely underestimating my free time, ending up with more “earned” free time is always good.
 
-3. **Sending my work out for feedback**, it’s just degrading if it’s sat on my hard drive.
+3.Sending my work out for feedback**, it’s just degrading if it’s sat on my hard drive.
 
 
 I’ll obviously try to not overscope myself in the future, but at least by doing this, the grind will have pockets of happiness.
