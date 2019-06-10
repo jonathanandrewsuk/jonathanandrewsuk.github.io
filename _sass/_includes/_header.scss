@@ -231,6 +231,18 @@
 
 }
 
+.menu_blurb {
+	font-size: $menu-medium;
+	@include mq(tabletp) {
+		padding: 30px 40px;
+	}
+
+	@include mq(tabletl) {
+		margin: 0;
+		padding: 0;
+	}
+}
+
 .menu__list__item__link {
 	font-size: $menu-small;
 	font-weight: $menu-weight;
