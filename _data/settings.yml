@@ -9,8 +9,8 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Home'
-      url: '/'
+#     - title: 'Home'
+#       url: '/'
 
 grid_settings:
   overlay_opacity: 0.8
