@@ -234,12 +234,10 @@
 .menu__blurb {
 	color: white;
 	@include mq(tabletl) {
-		font-size: 15px;
 		color: unset;
 	}
 
 	@include mq(laptop) {
-		font-size: 15px;
 		color: unset;
 	}
 }
