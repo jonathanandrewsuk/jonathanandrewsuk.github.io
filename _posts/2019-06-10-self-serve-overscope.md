@@ -2,7 +2,7 @@
 featured_image: /images/stressed-grafitti.png
 date: '2019-06-10 14:53 -0400'
 published: true
-title: 'Self Serve Overscope '
+title: 'Overscope '
 description: How to deal with my overscoping
 ---
 ## What is the right size idea to tackle next?
