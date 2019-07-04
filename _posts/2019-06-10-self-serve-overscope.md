@@ -5,7 +5,7 @@ published: true
 title: 'Overscope '
 description: How to deal with my overscoping
 ---
-## What is the right size idea to tackle next?
+## A note to myself to keep things fun
 
 I’ve been pushing hard at a software side project recently, trying to graduate it from my list of purchased domains and half done GitHub repos. During this time I’ve started to read [indiehackers.com](https://www.indiehackers.com/), there’s plenty of people telling the stories of their profitable side projects. It gives me a morale boost to see one person products that are successful because as I’ve learned there’s plenty of opportunities to make mistakes. 
 
