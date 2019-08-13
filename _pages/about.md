@@ -1,9 +1,9 @@
 ---
 title: About
-subtitle: 'Product Person currently in NYC '
 description: 'Jonny Andrews, digital product person'
 featured_image: /images/me-painting.jpg
 published: true
+subtitle: ''
 ---
 ## I'll think of something to write about myself soon. 
 
