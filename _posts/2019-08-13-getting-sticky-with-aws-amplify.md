@@ -2,7 +2,7 @@
 date: '2019-08-13 16:27 -0400'
 published: true
 title: Getting sticky with AWS Amplify
-featured_image: /images/sticky.jpg
+featured_image: /images/going-serverless-aws-amplify.jpeg
 description: Getting sticky with AWS Amplify
 ---
 ## Sticky Tech Debt
@@ -18,4 +18,3 @@ I’ve rationalized it as taking on tech debt, filed away in my head as a proble
 So, for now, I’m living with the debt. If it becomes a problem then it means the idea itself is doing well. All too often I’ll over-optimize from the start leading to shipping jack sh*t, this feels much better.
 
 > All too often I’ll over-optimize from the start leading to shipping jack sh*t, this feels much better.
-
