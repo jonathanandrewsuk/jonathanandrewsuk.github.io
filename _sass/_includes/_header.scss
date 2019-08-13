@@ -9,6 +9,7 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Header
 
 .header {
+	background: $background-color;
 	padding: 20px;
 
 	@include mq(tabletp) {
