@@ -2,7 +2,7 @@
 date: '2019-08-13 16:27 -0400'
 published: true
 title: Getting sticky with AWS Amplify
-featured_image: /images/going-serverless-aws-amplify.jpeg
+featured_image: /images/amplify-lander.png
 description: Getting sticky with AWS Amplify
 ---
 ## Sticky Tech Debt
