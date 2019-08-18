@@ -15,7 +15,7 @@ Here’s a few flourishes I’ve noticed recently:
 
 ![indiehackers-like-button.gif]({{site.baseurl}}/images/indiehackers-like-button.gif)
 
-The like button on IndieHackers, I like that a little extra effort has been put into the mechanism for cheering other people on. That’s the whole spirit of the site distilled into a little button.
+The like button on [IndieHackers](https://www.indiehackers.com/), I like that a little extra effort has been put into the mechanism for cheering other people on. That’s the whole spirit of the site distilled into a little button.
 
 ---
 
@@ -23,7 +23,7 @@ The like button on IndieHackers, I like that a little extra effort has been put 
 
 ![giphy-uploader.gif]({{site.baseurl}}/images/giphy-uploader.gif)
 
-Giphy uploader animation, the nintendo power glove gives you a charming finder wag if you try to upload an incompatible file format. Their brand tone even makes its way into the user creation tools.
+[Giphy](https://giphy.com/) uploader animation, the nintendo power glove gives you a charming finder wag if you try to upload an incompatible file format. Their brand tone even makes its way into the user creation tools.
 
 ---
 
@@ -31,7 +31,7 @@ Giphy uploader animation, the nintendo power glove gives you a charming finder w
 
 ![spotify-stranger-things-mode.gif]({{site.baseurl}}/images/spotify-stranger-things-mode.gif)
 
-One of the most high profile examples I can think of is Spotify’s “Stranger Things Mode”, a google search will show you how widely appreciated and shared this was when it was shipped.
+One of the most high profile examples I can think of is Spotify’s “Stranger Things Mode”, a google search will show you how widely [appreciated](https://www.youtube.com/watch?v=eRBQ0ZVrlJI) and shared this was when it was shipped.
 
 ---
 
@@ -44,4 +44,3 @@ This one isn't front end flash but more of flourishy feature, Juno allows passen
 ---
 
 **It is important to note that this sort of work needs to be done on top of a rock solid functional product. A bunch of flourishes won’t make up for a product with a lackluster core experience.**
-
