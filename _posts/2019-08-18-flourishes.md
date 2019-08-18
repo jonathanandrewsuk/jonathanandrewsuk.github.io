@@ -1,7 +1,7 @@
 ---
 featured_image: /images/giphy-uploader-still.png
 date: '2019-08-18 18:18 -0400'
-published: false
+published: true
 title: Flourishes
 description: Flourishes in web design
 ---
@@ -43,6 +43,5 @@ This one isn't front end flash but more of flourishy feature, Juno allows passen
 
 ---
 
-
-It is important to note that this sort of work needs to be done on top of a rock solid functional product. A bunch of flourishes won’t make up for a product with a lackluster core experience.
+**It is important to note that this sort of work needs to be done on top of a rock solid functional product. A bunch of flourishes won’t make up for a product with a lackluster core experience.**
 
