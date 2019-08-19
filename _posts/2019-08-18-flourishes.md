@@ -7,9 +7,11 @@ description: Flourishes in web design
 ---
 I'm guilty of occasionally jumping to front-end styling before all my bugs are fixed; it’s usually as a ‘treat’ and results in a burst of instant gratification.
 
-It’s from my own bias that when I see time and effort put into the little things on the front, I assume that there must also be real quality of thought & effort beneath the HTML. I’m aware that’s not always the case, some people are out there making smokescreens for awkward legacy bakends.
+> It’s from my own bias that when I see time and effort put into the little things on the front, I assume that there must also be real quality of thought & effort beneath the HTML.
 
-Here’s a few flourishes I’ve noticed recently: 
+I’m aware that’s not always the case, some people are out there making smokescreens for awkward legacy bakends.
+
+**Here’s a few flourishes I’ve noticed recently:**
 
 ## IndieHackers: Upvote Button
 
@@ -39,7 +41,7 @@ One of the most high profile examples I can think of is Spotify’s “Stranger 
 
 ![juno-low-battery-status.png]({{site.baseurl}}/images/juno-low-battery-status.png)
 
-This one isn't front end flash but more of flourishy feature, Juno allows passengers to let their driver know beforehand that they are running low on juice. Arguably if the driver has a charger to offer they are going to do it regardless, but it’s more the fact that someone has taken the time to push this little feature into production.
+This one isn't front end flash but more of flourishy feature, [Juno](https://gojuno.com/) allows passengers to let their driver know beforehand that they are running low on juice. Arguably if the driver has a charger to offer they are going to do it regardless, but it’s more the fact that someone has taken the time to push this little feature into production.
 
 ---
 
