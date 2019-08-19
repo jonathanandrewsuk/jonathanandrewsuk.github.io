@@ -5,11 +5,11 @@ published: true
 title: Flourishes
 description: Flourishes in web design
 ---
-I'm guilty of occasionally jumping to front-end styling before all my bugs are fixed; it’s usually as a ‘treat’ and results in a burst of instant gratification.
+I read about creating "moments of joy" for the user but this can sometimes reference a particularly good user journey or complete customer support flow. I see a flourish as being a smaller version of this, **a fleeting moment in which a product behaves in a pleasing way.**
 
 > It’s from my own bias that when I see time and effort put into the little things on the front, I assume that there must also be real quality of thought & effort beneath the HTML.
 
-I’m aware that’s not always the case, some people are out there making smokescreens for awkward legacy bakends.
+(I’m aware that’s not always the case, some people are out there making smokescreens for awkward legacy bakends)
 
 **Here’s a few flourishes I’ve noticed recently:**
 
