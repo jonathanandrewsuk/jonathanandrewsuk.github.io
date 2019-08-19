@@ -25,7 +25,7 @@ The like button on [IndieHackers](https://www.indiehackers.com/), I like that a 
 
 ![giphy-uploader.gif]({{site.baseurl}}/images/giphy-uploader.gif)
 
-[Giphy](https://giphy.com/) uploader animation, the nintendo power glove gives you a charming finder wag if you try to upload an incompatible file format. Their brand tone even makes its way into the user creation tools.
+[Giphy](https://giphy.com/) uploader animation, the nintendo power glove gives you a charming finger wag if you try to upload an incompatible file format. Their brand tone even makes its way into the user creation tools.
 
 ---
 
