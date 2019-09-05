@@ -1,7 +1,7 @@
 ---
 featured_image: /images/divjoy.png
 date: '2019-09-05 17:20 -0400'
-published: false
+published: true
 title: The right amount of template
 description: The right amount of template with divjoy
 ---
