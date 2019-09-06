@@ -86,7 +86,7 @@ prose:
     - name: "description"
       field:
         element: "text"
-        label: "Description (for seo)"
+        label: "Short tagline"
         placeholder: "A description of your post."
         alterable: true
     - name: "featured_image"
