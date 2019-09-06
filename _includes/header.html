@@ -1,6 +1,6 @@
-<header class="header">
+<header class="header--main">
 
-	<div class="header__content">
+	<div class="wrap grid__2-col">
 
 		{% if site.data.settings.header_settings.logo_image %}
 		<a href="/" class="header__logo">
@@ -12,46 +12,26 @@
 		</a>
 		{% endif %}
 
-		<h1 class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</h1>
+		<div class="menu__toggle js-menu-toggle">
+			<div class="menu__toggle__icon"><span></span></div>
+		</div>
 
-		<div class="menu">
-			<div class="menu__toggle js-menu-toggle">
-				<div class="menu__toggle__icon"><span></span></div>
-			</div>
+		<nav class="header__menu">
 			<div class="menu__wrap">
 				<ul class="menu__list">
 					{% for item in site.data.settings.menu_settings.menu_items %}
 					<li class="menu__list__item">
-						<a href="{{ item.url }}" class="menu__list__item__link">{{ item.title }}</a>
+						<a href="{{ item.url }}" class="menu__list__item__link button--text">{{ item.title }}</a>
 					</li>
 					{% endfor %}
-<!-- 					<div class="menu__blurb">
-						Hello
-					</div> -->
+					<li class="menu__cta">
+						<a href="#" class="menu__cta__link button--text contact-trigger js-contact">Get In Touch</a>
+					</li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 
-<!-- 		<div class="projects-menu">
-			<ul class="menu__list">
-				{% for post in site.posts reversed %}
-				<li class="menu__list__item">
-					<a href="{{ post.url }}" class="menu__list__item__link">{{ post.title }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-		</div> -->
-
-		<div class="header__lower">
-
-			{% include socials.html %}
-
-			<div class="footer__copyright">
-				<span>mail [at] jonnyandrews.io</span>
-			</div>
-
-		</div>
-
+		<a href="#" class="header__cta button--fill contact-trigger js-contact">Get In Touch</a>
 	</div>
 
 </header>

@@ -1,56 +1,64 @@
 ---
 layout: default
 title: Blog
-description: Index includes a simple blog with pagination.
+description: Made includes a beautiful grid-based blog with pagination.
 featured_image: /images/social.jpg
 ---
 
-<section class="blog">
+<div class="page-blog">
+	<header class="header--single">
+		<div class="wrap">
+			<h1 class="header__title">Blog</h1>
+			<p class="header__subtitle subtitle--light">Find out what I've been up through my latest photo blogging adventures.</p>
+		</div>
+	</header>
 
-	<div class="content-wrap blog-wrap">
+	<section class="all-posts">
+		<div class="wrap">
+			<div class="posts__list grid">
+				{% for post in paginator.posts %}
+				{% if forloop.first == true %}
+				<article class="post post-new">
+					<div class="grid">
+						<a href="{{ post.url }}">
+							<div class="post__image{% if paginator.page == 1 %} post__image--new{% endif %}"
+								style="background-image: url({{ post.featured_image }})">
+							</div>
+						</a>
 
-		{% for post in site.blog.paginator.posts %}
-
-		<article class="blog-post">
-
-			<a class="blog-post__link" href="{{ post.url }}">
-
-				<div class="blog-post__image">
-					<img src="{{ post.featured_image  }}" alt="{{ post.title }}">
-				</div>
-
-				<div class="blog-post__content">
-					<div class="blog-post__info">
-						<h2 class="blog-post__title">{{ post.title }}</h2>
-						<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
+						<div class="post__content-wrap">
+							<div class="post__content">
+								<time class="post__date label--small">{{ post.date | date: "%B %d, %Y" }}</time>
+								<h2 class="post__title h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+								<p class="post__subtitle">{{ post.subtitle }}</p>
+								<p class="post__description">{{ post.description }}</p>
+								<a href="{{ post.url }}" class="post__link button--text--accent --right">Keep Reading</a>
+							</div>
+						</div>
 					</div>
-				</div>
+				</article>
+				{% else %}
+				{% include component__post-preview.html %}
+				{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
 
-			</a>
+	{% if paginator.total_pages > 1 %}
 
-		</article>
+	<section class="pagination">
+		<div class="wrap">
+			{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}"
+				class="button--text--accent --left pagination__prev">Newer Posts</a>
+			{% endif %}
+			{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path | prepend: site.baseurl }}"
+				class="button--text--accent --right pagination__next">Older Posts</a>
+			{% endif %}
+		</div>
+	</section>
 
-		{% endfor %}
-
-	</div>
-
-</section>
-
-{% if site.blog.paginator.total_pages > 1 %}
-
-<section class="pagination">
-
-	{% if site.blog.paginator.previous_page %}
-	<div class="pagination__prev">
-		<a href="{{ site.blog.paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-	</div>
 	{% endif %}
-	{% if site.blog.paginator.next_page %}
-	<div class="pagination__next">
-		<a href="{{ site.blog.paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-	</div>
-	{% endif %}
-
-</section>
-
-{% endif %}
+</div>

@@ -1,4 +1,4 @@
-site: Jonny Andrews
+site: Made Jekyll Theme
 
 collections:
   pages:
@@ -7,6 +7,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
 defaults:
   -
@@ -34,72 +37,22 @@ defaults:
       layout: "project"
 
 markdown: kramdown
+highlighter: rouge
 
 kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
   
 sass:
   style: compressed
 
-
-# prose.io config
-prose:
-  media: 'images'
-  ignore:
-  - 404.html
-  - LICENSE
-  - feed.xml
-  - _config.yml
-  - /_layouts
-  - /_includes
-  - /css
-  - /img
-  - /js
-  metadata:
-    _posts:
-    - name: “layout”
-      field:
-        element: “hidden”
-        value: “post”
-    - name: "title"
-      field:
-        element: "text"
-        label: "Post title"
-        placeholder: "Title"
-        alterable: true
-    - name: "description"
-      field:
-        element: "text"
-        label: "Description (for seo)"
-        placeholder: "A description of your post."
-        alterable: true
-    - name: "featured_image"
-      field:
-        element: "text"
-        label: "Featured Image"
-        placeholder: "somefile.jpg"
-        value: "/images/demo/demo-square.jpg"
-        alterable: true
-    - name: "date"
-      field:
-        element: "text"
-        label: "Date"
-        help: "Enter date of post."
-        placeholder: "yyyy-mm-dd"
-        alterable: true
-        value: CURRENT_DATETIME
-    - name: "published"
-      field:
-        element: "checkbox"
-        label: "Publish"
-        help: "Check to publish post, uncheck to hide."
-        value: false
-
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 6
-paginate_path: "/page:num/"
-  
+paginate: 7
+paginate_path: "/blog/page-:num/"
