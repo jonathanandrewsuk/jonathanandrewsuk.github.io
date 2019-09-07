@@ -13,6 +13,8 @@
 	}
 
 	.footer__title {
+	    display: flex;
+	    align-items: center;
 	    font-family: $title-font;
 	    font-size: $sitetitle-small;
 	    font-weight: $sitetitle-weight;
