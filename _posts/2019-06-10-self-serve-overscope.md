@@ -1,7 +1,7 @@
 ---
 featured_image: /images/stressed-grafitti.png
 date: '2019-06-10 14:53 -0400'
-published: true
+published: false
 title: 'Overscope '
 description: How to deal with my overscoping
 ---
