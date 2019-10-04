@@ -13,8 +13,13 @@
 
 
 // Colors
+@mixin background-color() {
+  background-color: {{ site.data.settings.color_settings.background_color }};
+  @media (prefers-color-scheme: dark) {
+    background-color: {{ site.data.settings.color_settings.background_color_dark_mode }};
+  }
+}
 
-$background-color: {{ site.data.settings.color_settings.background_color }};
 $background-alt-color: {{ site.data.settings.color_settings.background_alt_color }};
 $border-color: {{ site.data.settings.color_settings.border_color }};
 
