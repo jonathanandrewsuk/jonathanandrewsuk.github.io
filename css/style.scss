@@ -28,17 +28,19 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 // Dark Mode Colors
 
-$background-color-dark-mode: {{ site.data.settings.color_settings.background_color_dark_mode }};
-$background-alt-color-dark-mode: {{ site.data.settings.color_settings.background_alt_color_dark_mode }};
-$border-color-dark-mode: {{ site.data.settings.color_settings.border_color_dark_mode }};
+@media (prefers-color-scheme: dark) {
+  $background-color: {{ site.data.settings.color_settings.background_color_dark_mode }};
+  $background-alt-color: {{ site.data.settings.color_settings.background_alt_color_dark_mode }};
+  $border-color: {{ site.data.settings.color_settings.border_color_dark_mode }};
 
-$text-dark-color-dark-mode: {{ site.data.settings.color_settings.text_dark_color_dark_mode }};
-$text-medium-color-dark-mode: {{ site.data.settings.color_settings.text_medium_color_dark_mode }};
-$text-light-color-dark-mode: {{ site.data.settings.color_settings.text_light_color_dark_mode }};
+  $text-dark-color: {{ site.data.settings.color_settings.text_dark_color_dark_mode }};
+  $text-medium-color: {{ site.data.settings.color_settings.text_medium_color_dark_mode }};
+  $text-light-color: {{ site.data.settings.color_settings.text_light_color_dark_mode }};
 
-$accent-color-dark-mode: {{ site.data.settings.color_settings.accent_color_dark_mode }};
+  $accent-color: {{ site.data.settings.color_settings.accent_color_dark_mode }};
 
-$error-color-dark-mode: {{ site.data.settings.color_settings.error_color_dark_mode }};
+  $error-color: {{ site.data.settings.color_settings.error_color_dark_mode }};
+ }
 
 
 // Fonts
