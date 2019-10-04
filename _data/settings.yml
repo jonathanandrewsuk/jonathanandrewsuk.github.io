@@ -70,11 +70,15 @@ color_settings:
   border_color: '#ECEDEF'
   error_color: '#D64541'
   
-  background_alt_color_dark_mode: '#1f364d'
+  
   background_color_dark_mode: '#0e2439'
+  background_alt_color_dark_mode: '#1f364d'
   text_dark_color_dark_mode: '#ffffff'
   text_medium_color_dark_mode: '#9cb3c9'
   text_light_color_dark_mode: '#63809c'
+  accent_color_dark_mode: '#448ef6'
+  border_color_dark_mode: '#1f364d'
+  error_color_dark_mode: '#D64541'
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Open+Sans:400,700" rel="stylesheet">'
