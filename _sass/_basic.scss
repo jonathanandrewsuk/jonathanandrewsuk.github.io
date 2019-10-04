@@ -19,10 +19,6 @@ body {
 	color: $text-dark-color;
 	-webkit-font-smoothing: antialiased;
 	overflow-x: hidden;
-	@media (prefers-color-scheme: dark) {
-	  background: $background-color-dark-mode;
-	  color: $text-dark-color-dark-mode;
-	}
 }
 
 hr {
