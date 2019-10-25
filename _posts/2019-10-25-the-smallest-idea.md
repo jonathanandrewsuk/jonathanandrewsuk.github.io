@@ -1,5 +1,5 @@
 ---
-featured_image: /images/digitalminimalism-book.jpg
+featured_image: /images/man-on-phone-black-and-white.png
 date: '2019-10-25 12:39 -0400'
 published: true
 title: The Smallest Idea
@@ -19,4 +19,3 @@ That's when the idea bubbled up, I wasn’t actively thinking about but somewher
 
 So I’ll get to work making the simplest version possible that provides a foundation for expansion. Like many of these blog posts this a reminder to myself and anyone who stumbles across this page:
 > Today’s reminder that the brain needs stimulation to generate new things, a life of routine is good in many ways but not optimal for ideas.
-
