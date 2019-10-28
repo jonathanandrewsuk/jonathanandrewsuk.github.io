@@ -110,3 +110,43 @@ prose:
         label: "Publish"
         help: "Check to publish post, uncheck to hide."
         value: false
+        
+    _projects:
+    - name: “layout”
+      field:
+        element: “hidden”
+        value: “post”
+    - name: "title"
+      field:
+        element: "text"
+        label: "Post title"
+        placeholder: "Title"
+        alterable: true
+    - name: "description"
+      field:
+        element: "text"
+        label: "Short tagline"
+        placeholder: "A description of your project."
+        alterable: true
+    - name: "featured_image"
+      field:
+        element: "text"
+        label: "Featured Image"
+        placeholder: "somefile.jpg"
+        value: "/images/demo/demo-square.jpg"
+        alterable: true
+    - name: "date"
+      field:
+        element: "text"
+        label: "Date"
+        help: "Enter date of post."
+        placeholder: "yyyy-mm-dd"
+        alterable: true
+        value: CURRENT_DATETIME
+    - name: "published"
+      field:
+        element: "checkbox"
+        label: "Publish"
+        help: "Check to publish project, uncheck to hide."
+        value: false
+
