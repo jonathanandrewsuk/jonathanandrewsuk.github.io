@@ -3,7 +3,7 @@ featured_image: /images/stressed-grafitti.png
 date: '2019-06-10 14:53 -0400'
 published: false
 title: 'Overscope '
-description: How to deal with my overscoping
+description: How to deal with my overscope
 ---
 ## A note to myself to keep things fun
 
