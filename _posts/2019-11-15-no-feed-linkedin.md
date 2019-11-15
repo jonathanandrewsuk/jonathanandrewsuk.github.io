@@ -11,9 +11,8 @@ I challenged myself to make something small and useful, I put a strict timebox a
 
 Producing something new in a tight timeframe was an exercise in scoping. My original thoughts for the chrome extension were more feature rich, with multi-site and a settings panel built in react. 
 
-In the end it's just a few lines of CSS that load when you visit Linkedin. 
+In the end it's just a few lines of CSS that loads when you visit Linkedin. 
 
 ![no-feed-screenshot]({{site.baseurl}}/images/ne-feedas.png)
 
-It works but is reliant on the div classes that contain the feed elements, so when LinkedIn have a re-design it's going to stop working. I plan to upgrade the extension with some logic to guess which div contains the feed element.
-
+Most of my time was spent learning the conventions and process for creating a chrome extension. I was only coding for about an hour, most of this time was getting the format correct for the manifest json file. 
