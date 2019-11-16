@@ -7,7 +7,10 @@ description: Removing the LinkedIn newsfeed with a chrome extension
 ---
 ## A simple chrome extension to boost productivity
 
-[Click here to see it on the chrome store](https://chrome.google.com/webstore/detail/no-feed-linkedin/fhjdnnefemijiadjmmafafonjoicedhd "Chrome Store Link")
+[![Chrome WebStore Badge]({{site.baseurl}}/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/no-feed-linkedin/fhjdnnefemijiadjmmafafonjoicedhd "Chrome Store Link")
+
+
+
 
 I challenged myself to make something small and useful, I put a strict timebox around the work of 3 Hours.
 
