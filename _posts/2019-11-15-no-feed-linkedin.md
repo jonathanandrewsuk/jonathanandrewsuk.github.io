@@ -9,9 +9,6 @@ description: Removing the LinkedIn newsfeed with a chrome extension
 
 [![Chrome WebStore Badge]({{site.baseurl}}/images/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/no-feed-linkedin/fhjdnnefemijiadjmmafafonjoicedhd "Chrome Store Link")
 
-
-
-
 I challenged myself to make something small and useful, I put a strict timebox around the work of 3 Hours.
 
 Producing something new in a tight timeframe was an exercise in scoping. My original thoughts for the chrome extension were more feature rich, with multi-site and a settings panel built in react. 
